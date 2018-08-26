@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <iostream>
-#include <sstream>
 #include <stdexcept>
 #include <cppconn/driver.h>
 #include <cppconn/exception.h>
@@ -11,7 +10,7 @@
 #include <string>
 #include <fstream>
 #include <sstream>
-#include "/home/user/Downloads/mysql-connector-c++-8.0.12-linux-glibc2.12-x86-64bit/include/jdbc/mysql_connection.h"
+#include "mysql_connection.h" // or #include "path/mysql_connection.h"
 
 #define EXAMPLE_HOST "localhost"
 #define EXAMPLE_USER "root"
